@@ -16,6 +16,8 @@ There is also an option button for the player to edit the difficulty level which
 
 ## NAVIGATION OF THE APP
 
+![(AppNavigation)](img/AppNavigation.png)
+
 The screenshot above is the main storyboard of my app. The navigation of the game is quite simple with a Navigation controller and serves the following purposes:
 
 1. Helps navigate back and forth between the main menu of the game (controlled by MenuPageViewController.swift) and the tutorial page (TutorialViewController.swift)
@@ -25,8 +27,11 @@ The screenshot above is the main storyboard of my app. The navigation of the gam
 ## THE ACTUAL VIEW
 
 The game starts with an animation splash screen which was imported using Lottie CocoaPod as seen in the image below.
+<p align="center">
+  <img src="https://github.com/lylydang/wordGuessingGame/blob/master/img/Animation.png" width="40%" > 
+</p>
 
-
+![(Actual view 1)](img/ActualView1.png)
 
 _(Actual view 1)_
 
@@ -36,6 +41,7 @@ When the player plays the game, after the loading screen, there will be the main
 - --When the player taps on Play button, it will redirect the player to the gameplay page. Here, at the bottom left of the screen, the player can find a slider to modify the game&#39;s difficulty level (see Actual view 2).
 
 
+![(Actual view 2)](img/ActualView2.png)
 
 _(Actual view 2)_
 
@@ -50,23 +56,27 @@ Let&#39;s take a look at how the game runs (Actual view 3):
 
 5. When the player enters a correct letter, the underscore will be revealed and shows the correct letter (see Actual view 4).
 
-
-
-_(Actual view 3)_
-
-
-
-_(Actual view 4)_
+<p align="center">
+  <img src="https://github.com/lylydang/wordGuessingGame/blob/master/img/ActualView3.png" width="40%" > 
+  _(Actual view 3)_
+</>
+ 
+<p align="center"> 
+  <img src="https://github.com/lylydang/wordGuessingGame/blob/master/img/ActualView4.png" width="40%" > 
+  _(Actual view 4)_
+</p>
 
 Additionally, below are the actual look of the game when the player enter input:
 
 1. If the input is invalid (inputting a number, special symbol, or \&gt;=2 letters), then an invalid input popup will appear. Also, when the player enters an incorrect letter, the wrong guess popup will show up to warn the player (see Actual view 5).
 
+![(Actual view 5)](img/ActualView5.png)
+
 _(Actual view 5)_
 
 1. If the player loses the game, the &quot;Game&#39;s Over&quot; popup appears. If the player correctly guesses the secret word, the &quot;Congrats!!!&quot; popup will appear (see Actual view 6).
 
-
+![(Actual view 6)](img/ActualView6.png)
 
 _(Actual view 6)_
 
