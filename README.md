@@ -59,11 +59,13 @@ Let&#39;s take a look at how the game runs (Actual view 3):
 <p align="center">
   <img src="https://github.com/lylydang/wordGuessingGame/blob/master/img/ActualView3.png" width="50%" > 
 </>
+  
 _(Actual view 3)_
   
 <p align="center"> 
   <img src="https://github.com/lylydang/wordGuessingGame/blob/master/img/ActualView4.png" width="50%" > 
 </p>
+
 _(Actual view 4)_
 
 Additionally, below are the actual look of the game when the player enter input:
