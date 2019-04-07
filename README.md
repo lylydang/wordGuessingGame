@@ -1,5 +1,8 @@
 # WORD GUESSING GAME
 
+### DEVELOPER'S NOTE
+This game currently is designed for the iPhone X and has only been tested with this model. Other iPhone versions may not have correct visualization for the game.
+
 ## GAMEPLAY&#39;S CONTENT
 
 The game is written based on a well-known name called The Hang Man. In the game, the player guesses secret words provided by the computer. In this game, we use REST API by REACH program as our source of data.
