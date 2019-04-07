@@ -1,0 +1,117 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PointValueProvider"
+provides-nominal:
+- "6Lottie18PointValueProviderC"
+provides-member:
+- ["6Lottie18PointValueProviderC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!="
+- "AnyValueProvider"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "CGFloat"
+- "CGPoint"
+- "PointValueProvider"
+- !private "Vector3D"
+depends-member:
+- !private ["6Lottie16AnyValueProviderP", "Vector3D"]
+- ["6Lottie16AnyValueProviderP", ""]
+- !private ["6Lottie16AnyValueProviderP", "block"]
+- ["6Lottie16AnyValueProviderP", "hasUpdate"]
+- !private ["6Lottie16AnyValueProviderP", "point"]
+- ["6Lottie16AnyValueProviderP", "value"]
+- ["6Lottie16AnyValueProviderP", "valueType"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So7CGPointV", "vector3dValue"]
+- !private ["So7CGPointV", "zero"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s28CustomDebugStringConvertibleP", "vector3dValue"]
+- !private ["s28CustomDebugStringConvertibleP", "zero"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "vector3dValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "zero"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "vector3dValue"]
+- !private ["s17CustomReflectableP", "zero"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "vector3dValue"]
+- !private ["Se", "zero"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "vector3dValue"]
+- !private ["SE", "zero"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "vector3dValue"]
+- !private ["SQ", "zero"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["6Lottie14InterpolatableP", "vector3dValue"]
+- !private ["6Lottie14InterpolatableP", "zero"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["6Lottie18PointValueProviderC", "Bool"]
+- ["6Lottie18PointValueProviderC", "CGFloat"]
+- ["6Lottie18PointValueProviderC", "CGPoint"]
+- ["6Lottie18PointValueProviderC", "PointValueBlock"]
+- !private ["6Lottie18PointValueProviderC", "Vector3D"]
+- !private ["6Lottie18PointValueProviderC", "block"]
+- ["6Lottie18PointValueProviderC", "deinit"]
+- ["6Lottie18PointValueProviderC", "hasUpdate"]
+- ["6Lottie18PointValueProviderC", "init"]
+- ["6Lottie18PointValueProviderC", "point"]
+- ["6Lottie18PointValueProviderC", "value"]
+- ["6Lottie18PointValueProviderC", "valueType"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "vector3dValue"]
+- !private ["s21_ObjectiveCBridgeableP", "zero"]
+depends-nominal:
+- "6Lottie16AnyValueProviderP"
+- !private "Sb"
+- !private "So7CGPointV"
+- !private "s7CVarArgP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- !private "SQ"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "SH"
+- !private "6Lottie14InterpolatableP"
+- !private "s25LosslessStringConvertibleP"
+- "6Lottie18PointValueProviderC"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/lylydang/Desktop/WordGuessingv1/WordGuessing/Pods/Target Support Files/lottie-ios/lottie-ios-umbrella.h"
+- "/Users/lylydang/Desktop/WordGuessingv1/WordGuessing/Build/Intermediates.noindex/IBDesignables/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "92ecac63e7a739148aeae2696ac6440f"

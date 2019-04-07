@@ -1,0 +1,604 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PopupViewController"
+provides-nominal:
+- "12WordGuessing19PopupViewControllerC"
+provides-member:
+- ["12WordGuessing19PopupViewControllerC", ""]
+provides-dynamic-lookup:
+- "closePopup"
+- "difficultyLevel"
+- "difficultySlider"
+- "viewDidLoad"
+depends-top-level:
+- "AssignmentPrecedence"
+- !private "FloatLiteralType"
+- !private "Int"
+- "PopupViewController"
+- !private "StringLiteralType"
+- !private "UIColor"
+- "UILabel"
+- "UISlider"
+- "UIViewController"
+- "ViewController"
+depends-member:
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["Sz", "init"]
+- !private ["So15CALayerDelegateP", "backgroundColor"]
+- !private ["So15CALayerDelegateP", "removeFromSuperview"]
+- !private ["So15CALayerDelegateP", "text"]
+- !private ["So15CALayerDelegateP", "value"]
+- !private ["s7CVarArgP", "Int"]
+- !private ["s7CVarArgP", "UIColor"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "backgroundColor"]
+- !private ["s7CVarArgP", "black"]
+- !private ["s7CVarArgP", "difficultyLevel"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "levelOfDiffculty"]
+- !private ["s7CVarArgP", "parentVC"]
+- !private ["s7CVarArgP", "removeFromSuperview"]
+- !private ["s7CVarArgP", "resetGame"]
+- !private ["s7CVarArgP", "text"]
+- !private ["s7CVarArgP", "value"]
+- !private ["s7CVarArgP", "view"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- !private ["s7CVarArgP", "withAlphaComponent"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "Int"]
+- !private ["s28CustomDebugStringConvertibleP", "UIColor"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "backgroundColor"]
+- !private ["s28CustomDebugStringConvertibleP", "black"]
+- !private ["s28CustomDebugStringConvertibleP", "difficultyLevel"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "levelOfDiffculty"]
+- !private ["s28CustomDebugStringConvertibleP", "parentVC"]
+- !private ["s28CustomDebugStringConvertibleP", "removeFromSuperview"]
+- !private ["s28CustomDebugStringConvertibleP", "resetGame"]
+- !private ["s28CustomDebugStringConvertibleP", "text"]
+- !private ["s28CustomDebugStringConvertibleP", "value"]
+- !private ["s28CustomDebugStringConvertibleP", "view"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s28CustomDebugStringConvertibleP", "withAlphaComponent"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "backgroundColor"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "removeFromSuperview"]
+- !private ["s17CustomReflectableP", "text"]
+- !private ["s23CustomStringConvertibleP", "Int"]
+- !private ["s23CustomStringConvertibleP", "UIColor"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "backgroundColor"]
+- !private ["s23CustomStringConvertibleP", "black"]
+- !private ["s23CustomStringConvertibleP", "difficultyLevel"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "levelOfDiffculty"]
+- !private ["s23CustomStringConvertibleP", "parentVC"]
+- !private ["s23CustomStringConvertibleP", "removeFromSuperview"]
+- !private ["s23CustomStringConvertibleP", "resetGame"]
+- !private ["s23CustomStringConvertibleP", "text"]
+- !private ["s23CustomStringConvertibleP", "value"]
+- !private ["s23CustomStringConvertibleP", "view"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["s23CustomStringConvertibleP", "withAlphaComponent"]
+- !private ["Se", "backgroundColor"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["Se", "removeFromSuperview"]
+- !private ["Se", "text"]
+- !private ["SE", "backgroundColor"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SE", "removeFromSuperview"]
+- !private ["SE", "text"]
+- !private ["SQ", "Int"]
+- !private ["SQ", "UIColor"]
+- ["SQ", ""]
+- !private ["SQ", "backgroundColor"]
+- !private ["SQ", "black"]
+- !private ["SQ", "difficultyLevel"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "levelOfDiffculty"]
+- !private ["SQ", "parentVC"]
+- !private ["SQ", "removeFromSuperview"]
+- !private ["SQ", "resetGame"]
+- !private ["SQ", "text"]
+- !private ["SQ", "value"]
+- !private ["SQ", "view"]
+- !private ["SQ", "viewDidLoad"]
+- !private ["SQ", "withAlphaComponent"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "backgroundColor"]
+- !private ["s23ExpressibleByNilLiteralP", "removeFromSuperview"]
+- !private ["s23ExpressibleByNilLiteralP", "text"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["SH", "Int"]
+- !private ["SH", "UIColor"]
+- ["SH", ""]
+- !private ["SH", "backgroundColor"]
+- !private ["SH", "black"]
+- !private ["SH", "difficultyLevel"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "levelOfDiffculty"]
+- !private ["SH", "parentVC"]
+- !private ["SH", "removeFromSuperview"]
+- !private ["SH", "resetGame"]
+- !private ["SH", "text"]
+- !private ["SH", "value"]
+- !private ["SH", "view"]
+- !private ["SH", "viewDidLoad"]
+- !private ["SH", "withAlphaComponent"]
+- !private ["Si", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "Int"]
+- !private ["So8NSCodingP", "UIColor"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "backgroundColor"]
+- !private ["So8NSCodingP", "black"]
+- !private ["So8NSCodingP", "difficultyLevel"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "levelOfDiffculty"]
+- !private ["So8NSCodingP", "parentVC"]
+- !private ["So8NSCodingP", "removeFromSuperview"]
+- !private ["So8NSCodingP", "resetGame"]
+- !private ["So8NSCodingP", "text"]
+- !private ["So8NSCodingP", "value"]
+- !private ["So8NSCodingP", "view"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- !private ["So8NSCodingP", "withAlphaComponent"]
+- !private ["So9NSCopyingP", "black"]
+- !private ["So9NSCopyingP", "withAlphaComponent"]
+- !private ["So26NSExtensionRequestHandlingP", "Int"]
+- !private ["So26NSExtensionRequestHandlingP", "UIColor"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "difficultyLevel"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "levelOfDiffculty"]
+- !private ["So26NSExtensionRequestHandlingP", "parentVC"]
+- !private ["So26NSExtensionRequestHandlingP", "resetGame"]
+- !private ["So26NSExtensionRequestHandlingP", "view"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- !private ["So21NSItemProviderReadingP", "black"]
+- !private ["So21NSItemProviderReadingP", "withAlphaComponent"]
+- !private ["So21NSItemProviderWritingP", "black"]
+- !private ["So21NSItemProviderWritingP", "withAlphaComponent"]
+- !private ["So8NSObjectC", "Int"]
+- !private ["So8NSObjectC", "UIColor"]
+- ["So8NSObjectC", "UILabel"]
+- ["So8NSObjectC", "UISlider"]
+- ["So8NSObjectC", "ViewController"]
+- !private ["So8NSObjectC", "backgroundColor"]
+- !private ["So8NSObjectC", "black"]
+- ["So8NSObjectC", "closePopup"]
+- ["So8NSObjectC", "difficultyLevel"]
+- ["So8NSObjectC", "difficultySlider"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "levelOfDiffculty"]
+- ["So8NSObjectC", "parentVC"]
+- !private ["So8NSObjectC", "removeFromSuperview"]
+- !private ["So8NSObjectC", "resetGame"]
+- !private ["So8NSObjectC", "text"]
+- !private ["So8NSObjectC", "value"]
+- !private ["So8NSObjectC", "view"]
+- ["So8NSObjectC", "viewDidLoad"]
+- !private ["So8NSObjectC", "withAlphaComponent"]
+- !private ["So8NSObjectP", "Int"]
+- !private ["So8NSObjectP", "UIColor"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "backgroundColor"]
+- !private ["So8NSObjectP", "black"]
+- !private ["So8NSObjectP", "difficultyLevel"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "levelOfDiffculty"]
+- !private ["So8NSObjectP", "parentVC"]
+- !private ["So8NSObjectP", "removeFromSuperview"]
+- !private ["So8NSObjectP", "resetGame"]
+- !private ["So8NSObjectP", "text"]
+- !private ["So8NSObjectP", "value"]
+- !private ["So8NSObjectP", "view"]
+- !private ["So8NSObjectP", "viewDidLoad"]
+- !private ["So8NSObjectP", "withAlphaComponent"]
+- !private ["So14NSSecureCodingP", "black"]
+- !private ["So14NSSecureCodingP", "withAlphaComponent"]
+- !private ["Sj", "init"]
+- !private ["Sq", "backgroundColor"]
+- !private ["Sq", "removeFromSuperview"]
+- !private ["Sq", "text"]
+- !private ["12WordGuessing19PopupViewControllerC", "Int"]
+- !private ["12WordGuessing19PopupViewControllerC", "UIColor"]
+- ["12WordGuessing19PopupViewControllerC", "UILabel"]
+- ["12WordGuessing19PopupViewControllerC", "UISlider"]
+- ["12WordGuessing19PopupViewControllerC", "ViewController"]
+- ["12WordGuessing19PopupViewControllerC", "closePopup"]
+- ["12WordGuessing19PopupViewControllerC", "difficultyLevel"]
+- ["12WordGuessing19PopupViewControllerC", "difficultySlider"]
+- ["12WordGuessing19PopupViewControllerC", "init"]
+- ["12WordGuessing19PopupViewControllerC", "parentVC"]
+- !private ["12WordGuessing19PopupViewControllerC", "view"]
+- ["12WordGuessing19PopupViewControllerC", "viewDidLoad"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["SZ", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["Sx", "init"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "backgroundColor"]
+- !private ["So29UIAccessibilityIdentificationP", "removeFromSuperview"]
+- !private ["So29UIAccessibilityIdentificationP", "text"]
+- !private ["So29UIAccessibilityIdentificationP", "value"]
+- !private ["So12UIAppearanceP", "backgroundColor"]
+- !private ["So12UIAppearanceP", "removeFromSuperview"]
+- !private ["So12UIAppearanceP", "text"]
+- !private ["So12UIAppearanceP", "value"]
+- !private ["So21UIAppearanceContainerP", "Int"]
+- !private ["So21UIAppearanceContainerP", "UIColor"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "backgroundColor"]
+- !private ["So21UIAppearanceContainerP", "difficultyLevel"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "levelOfDiffculty"]
+- !private ["So21UIAppearanceContainerP", "parentVC"]
+- !private ["So21UIAppearanceContainerP", "removeFromSuperview"]
+- !private ["So21UIAppearanceContainerP", "resetGame"]
+- !private ["So21UIAppearanceContainerP", "text"]
+- !private ["So21UIAppearanceContainerP", "value"]
+- !private ["So21UIAppearanceContainerP", "view"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- !private ["So7UIColorC", "black"]
+- !private ["So7UIColorC", "withAlphaComponent"]
+- !private ["So18UIContentContainerP", "Int"]
+- !private ["So18UIContentContainerP", "UIColor"]
+- ["So18UIContentContainerP", ""]
+- !private ["So18UIContentContainerP", "difficultyLevel"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "levelOfDiffculty"]
+- !private ["So18UIContentContainerP", "parentVC"]
+- !private ["So18UIContentContainerP", "resetGame"]
+- !private ["So18UIContentContainerP", "view"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "text"]
+- !private ["So9UIControlC", "value"]
+- !private ["So17UICoordinateSpaceP", "backgroundColor"]
+- !private ["So17UICoordinateSpaceP", "removeFromSuperview"]
+- !private ["So17UICoordinateSpaceP", "text"]
+- !private ["So17UICoordinateSpaceP", "value"]
+- !private ["So13UIDynamicItemP", "backgroundColor"]
+- !private ["So13UIDynamicItemP", "removeFromSuperview"]
+- !private ["So13UIDynamicItemP", "text"]
+- !private ["So13UIDynamicItemP", "value"]
+- !private ["So18UIFocusEnvironmentP", "Int"]
+- !private ["So18UIFocusEnvironmentP", "UIColor"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "backgroundColor"]
+- !private ["So18UIFocusEnvironmentP", "difficultyLevel"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "levelOfDiffculty"]
+- !private ["So18UIFocusEnvironmentP", "parentVC"]
+- !private ["So18UIFocusEnvironmentP", "removeFromSuperview"]
+- !private ["So18UIFocusEnvironmentP", "resetGame"]
+- !private ["So18UIFocusEnvironmentP", "text"]
+- !private ["So18UIFocusEnvironmentP", "value"]
+- !private ["So18UIFocusEnvironmentP", "view"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So11UIFocusItemP", "backgroundColor"]
+- !private ["So11UIFocusItemP", "removeFromSuperview"]
+- !private ["So11UIFocusItemP", "text"]
+- !private ["So11UIFocusItemP", "value"]
+- !private ["So20UIFocusItemContainerP", "backgroundColor"]
+- !private ["So20UIFocusItemContainerP", "removeFromSuperview"]
+- !private ["So20UIFocusItemContainerP", "text"]
+- !private ["So20UIFocusItemContainerP", "value"]
+- !private ["So7UILabelC", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "Int"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIColor"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "backgroundColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "difficultyLevel"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "levelOfDiffculty"]
+- !private ["So30UIPasteConfigurationSupportingP", "parentVC"]
+- !private ["So30UIPasteConfigurationSupportingP", "removeFromSuperview"]
+- !private ["So30UIPasteConfigurationSupportingP", "resetGame"]
+- !private ["So30UIPasteConfigurationSupportingP", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "value"]
+- !private ["So30UIPasteConfigurationSupportingP", "view"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- !private ["So11UIResponderC", "Int"]
+- !private ["So11UIResponderC", "UIColor"]
+- ["So11UIResponderC", "UILabel"]
+- ["So11UIResponderC", "UISlider"]
+- ["So11UIResponderC", "ViewController"]
+- !private ["So11UIResponderC", "backgroundColor"]
+- ["So11UIResponderC", "closePopup"]
+- ["So11UIResponderC", "difficultyLevel"]
+- ["So11UIResponderC", "difficultySlider"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "levelOfDiffculty"]
+- ["So11UIResponderC", "parentVC"]
+- !private ["So11UIResponderC", "removeFromSuperview"]
+- !private ["So11UIResponderC", "resetGame"]
+- !private ["So11UIResponderC", "text"]
+- !private ["So11UIResponderC", "value"]
+- !private ["So11UIResponderC", "view"]
+- ["So11UIResponderC", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "Int"]
+- !private ["So30UIResponderStandardEditActionsP", "UIColor"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "backgroundColor"]
+- !private ["So30UIResponderStandardEditActionsP", "difficultyLevel"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "levelOfDiffculty"]
+- !private ["So30UIResponderStandardEditActionsP", "parentVC"]
+- !private ["So30UIResponderStandardEditActionsP", "removeFromSuperview"]
+- !private ["So30UIResponderStandardEditActionsP", "resetGame"]
+- !private ["So30UIResponderStandardEditActionsP", "text"]
+- !private ["So30UIResponderStandardEditActionsP", "value"]
+- !private ["So30UIResponderStandardEditActionsP", "view"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- !private ["So8UISliderC", "value"]
+- !private ["So16UIStateRestoringP", "Int"]
+- !private ["So16UIStateRestoringP", "UIColor"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So16UIStateRestoringP", "difficultyLevel"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "levelOfDiffculty"]
+- !private ["So16UIStateRestoringP", "parentVC"]
+- !private ["So16UIStateRestoringP", "resetGame"]
+- !private ["So16UIStateRestoringP", "view"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- !private ["So18UITraitEnvironmentP", "Int"]
+- !private ["So18UITraitEnvironmentP", "UIColor"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "backgroundColor"]
+- !private ["So18UITraitEnvironmentP", "difficultyLevel"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "levelOfDiffculty"]
+- !private ["So18UITraitEnvironmentP", "parentVC"]
+- !private ["So18UITraitEnvironmentP", "removeFromSuperview"]
+- !private ["So18UITraitEnvironmentP", "resetGame"]
+- !private ["So18UITraitEnvironmentP", "text"]
+- !private ["So18UITraitEnvironmentP", "value"]
+- !private ["So18UITraitEnvironmentP", "view"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- !private ["So23UIUserActivityRestoringP", "Int"]
+- !private ["So23UIUserActivityRestoringP", "UIColor"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "backgroundColor"]
+- !private ["So23UIUserActivityRestoringP", "difficultyLevel"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "levelOfDiffculty"]
+- !private ["So23UIUserActivityRestoringP", "parentVC"]
+- !private ["So23UIUserActivityRestoringP", "removeFromSuperview"]
+- !private ["So23UIUserActivityRestoringP", "resetGame"]
+- !private ["So23UIUserActivityRestoringP", "text"]
+- !private ["So23UIUserActivityRestoringP", "value"]
+- !private ["So23UIUserActivityRestoringP", "view"]
+- !private ["So23UIUserActivityRestoringP", "viewDidLoad"]
+- !private ["So6UIViewC", "backgroundColor"]
+- !private ["So6UIViewC", "removeFromSuperview"]
+- !private ["So6UIViewC", "text"]
+- !private ["So6UIViewC", "value"]
+- !private ["So16UIViewControllerC", "Int"]
+- !private ["So16UIViewControllerC", "UIColor"]
+- ["So16UIViewControllerC", "UILabel"]
+- ["So16UIViewControllerC", "UISlider"]
+- ["So16UIViewControllerC", "ViewController"]
+- ["So16UIViewControllerC", ""]
+- ["So16UIViewControllerC", "closePopup"]
+- ["So16UIViewControllerC", "difficultyLevel"]
+- ["So16UIViewControllerC", "difficultySlider"]
+- ["So16UIViewControllerC", "init"]
+- !private ["So16UIViewControllerC", "init"]
+- !private ["So16UIViewControllerC", "levelOfDiffculty"]
+- ["So16UIViewControllerC", "parentVC"]
+- !private ["So16UIViewControllerC", "resetGame"]
+- !private ["So16UIViewControllerC", "view"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- !private ["12WordGuessing14ViewControllerC", "levelOfDiffculty"]
+- !private ["12WordGuessing14ViewControllerC", "resetGame"]
+- !private ["s18_BitwiseOperationsP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "backgroundColor"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "removeFromSuperview"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "text"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "value"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s26_ExpressibleByColorLiteralP", "black"]
+- !private ["s26_ExpressibleByColorLiteralP", "withAlphaComponent"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Int"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIColor"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "backgroundColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "black"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "difficultyLevel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "levelOfDiffculty"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "parentVC"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "removeFromSuperview"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "resetGame"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "value"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "view"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "withAlphaComponent"]
+- !private ["s21_ObjectiveCBridgeableP", "backgroundColor"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "removeFromSuperview"]
+- !private ["s21_ObjectiveCBridgeableP", "text"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "SK"
+- !private "Sz"
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- "SH"
+- !private "Si"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So26NSExtensionRequestHandlingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "Sj"
+- !private "Sq"
+- "12WordGuessing19PopupViewControllerC"
+- !private "Sm"
+- !private "ST"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- !private "So7UIColorC"
+- "So18UIContentContainerP"
+- !private "So30UIContentSizeCategoryAdjustingP"
+- !private "So9UIControlC"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So7UILabelC"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- !private "So8UISliderC"
+- "So16UIStateRestoringP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "12WordGuessing14ViewControllerC"
+- !private "s18_BitwiseOperationsP"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s26_ExpressibleByColorLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/lylydang/Desktop/WordGuessingv1/WordGuessing/Build/Products/Debug-iphonesimulator/lottie-ios/Lottie.framework/Modules/Lottie.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/lylydang/Desktop/WordGuessingv1/WordGuessing/Build/Products/Debug-iphonesimulator/lottie-ios/Lottie.framework/Headers/lottie-ios-umbrella.h"
+- "/Users/lylydang/Desktop/WordGuessingv1/WordGuessing/Build/Products/Debug-iphonesimulator/lottie-ios/Lottie.framework/Headers/Lottie-Swift.h"
+- "/Users/lylydang/Desktop/WordGuessingv1/WordGuessing/Build/Products/Debug-iphonesimulator/lottie-ios/Lottie.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/AVKit.framework/Headers/AVKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "f42e6fbb341206d52dc38bd6b78db27c"

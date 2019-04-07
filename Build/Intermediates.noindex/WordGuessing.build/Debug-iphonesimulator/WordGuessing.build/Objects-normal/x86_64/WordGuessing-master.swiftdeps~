@@ -1,0 +1,12 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "7f8e2d77a14c085aad34318851c349b8"
+build_time: [1554673402, 334018000]
+inputs:
+  "/Users/lylydang/Desktop/WordGuessingv1/WordGuessing/WordGuessing/CustomButton.swift": [1554668594, 0]
+  "/Users/lylydang/Desktop/WordGuessingv1/WordGuessing/WordGuessing/ViewController.swift": [1554673401, 0]
+  "/Users/lylydang/Desktop/WordGuessingv1/WordGuessing/WordGuessing/AnimationViewController.swift": [1554668501, 0]
+  "/Users/lylydang/Desktop/WordGuessingv1/WordGuessing/WordGuessing/TutorialViewController.swift": [1554668594, 0]
+  "/Users/lylydang/Desktop/WordGuessingv1/WordGuessing/WordGuessing/SpinnerViewController.swift": [1554668405, 0]
+  "/Users/lylydang/Desktop/WordGuessingv1/WordGuessing/WordGuessing/AppDelegate.swift": [1554359516, 0]
+  "/Users/lylydang/Desktop/WordGuessingv1/WordGuessing/WordGuessing/MenuPageViewController.swift": [1554669431, 0]
+  "/Users/lylydang/Desktop/WordGuessingv1/WordGuessing/WordGuessing/PopupViewController.swift": [1554669840, 0]

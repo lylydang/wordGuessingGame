@@ -1,0 +1,553 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ShapeType"
+- "ShapeItem"
+provides-nominal:
+- "6Lottie9ShapeTypeO"
+- "6Lottie9ShapeItemC"
+provides-member:
+- ["6Lottie9ShapeTypeO", ""]
+- ["6Lottie9ShapeItemC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- !private "??"
+- "AnyObject"
+- !private "Array"
+- "AssignmentPrecedence"
+- "ClassFamily"
+- "Codable"
+- "CodingKey"
+- "Decoder"
+- "Discriminator"
+- !private "Ellipse"
+- !private "Fill"
+- !private "FloatLiteralType"
+- !private "GradientFill"
+- !private "GradientStroke"
+- !private "Group"
+- !private "IntegerLiteralType"
+- !private "Merge"
+- !private "Rectangle"
+- !private "Repeater"
+- !private "Shape"
+- "ShapeItem"
+- !private "ShapeTransform"
+- "ShapeType"
+- !private "Star"
+- "String"
+- "StringLiteralType"
+- !private "Stroke"
+- !private "Trim"
+- !private "_findStringSwitchCase"
+- !private "~="
+depends-member:
+- ["SK", "init"]
+- ["SK", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "init"]
+- !private ["6Lottie11ClassFamilyP", "Ellipse"]
+- !private ["6Lottie11ClassFamilyP", "Fill"]
+- !private ["6Lottie11ClassFamilyP", "GradientFill"]
+- !private ["6Lottie11ClassFamilyP", "GradientStroke"]
+- !private ["6Lottie11ClassFamilyP", "Group"]
+- !private ["6Lottie11ClassFamilyP", "Merge"]
+- ["6Lottie11ClassFamilyP", "RawValue"]
+- !private ["6Lottie11ClassFamilyP", "Rectangle"]
+- !private ["6Lottie11ClassFamilyP", "Repeater"]
+- !private ["6Lottie11ClassFamilyP", "Shape"]
+- !private ["6Lottie11ClassFamilyP", "ShapeItem"]
+- !private ["6Lottie11ClassFamilyP", "ShapeTransform"]
+- !private ["6Lottie11ClassFamilyP", "Star"]
+- !private ["6Lottie11ClassFamilyP", "Stroke"]
+- !private ["6Lottie11ClassFamilyP", "Trim"]
+- ["6Lottie11ClassFamilyP", ""]
+- ["6Lottie11ClassFamilyP", "_Default_RawValue"]
+- !private ["6Lottie11ClassFamilyP", "_findStringSwitchCase"]
+- ["6Lottie11ClassFamilyP", "discriminator"]
+- ["6Lottie11ClassFamilyP", "ellipse"]
+- ["6Lottie11ClassFamilyP", "encode"]
+- ["6Lottie11ClassFamilyP", "fill"]
+- ["6Lottie11ClassFamilyP", "getType"]
+- ["6Lottie11ClassFamilyP", "gradientFill"]
+- ["6Lottie11ClassFamilyP", "gradientStroke"]
+- ["6Lottie11ClassFamilyP", "group"]
+- ["6Lottie11ClassFamilyP", "hash"]
+- ["6Lottie11ClassFamilyP", "hashValue"]
+- ["6Lottie11ClassFamilyP", "init"]
+- ["6Lottie11ClassFamilyP", "merge"]
+- ["6Lottie11ClassFamilyP", "rawValue"]
+- ["6Lottie11ClassFamilyP", "rectangle"]
+- ["6Lottie11ClassFamilyP", "repeater"]
+- ["6Lottie11ClassFamilyP", "shape"]
+- ["6Lottie11ClassFamilyP", "star"]
+- ["6Lottie11ClassFamilyP", "stroke"]
+- ["6Lottie11ClassFamilyP", "transform"]
+- ["6Lottie11ClassFamilyP", "trim"]
+- ["s9CodingKeyP", "RawValue"]
+- !private ["s9CodingKeyP", ""]
+- ["s9CodingKeyP", "_Default_RawValue"]
+- !private ["s9CodingKeyP", "_findStringSwitchCase"]
+- ["s9CodingKeyP", "debugDescription"]
+- ["s9CodingKeyP", "description"]
+- ["s9CodingKeyP", "hash"]
+- ["s9CodingKeyP", "hashValue"]
+- ["s9CodingKeyP", "init"]
+- !private ["s9CodingKeyP", "init"]
+- ["s9CodingKeyP", "intValue"]
+- !private ["s9CodingKeyP", "name"]
+- ["s9CodingKeyP", "rawValue"]
+- ["s9CodingKeyP", "stringValue"]
+- ["s9CodingKeyP", "type"]
+- ["Sl", "init"]
+- ["Sl", "init"]
+- ["SL", "init"]
+- ["SL", "init"]
+- ["s28CustomDebugStringConvertibleP", "RawValue"]
+- !private ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "_Default_RawValue"]
+- !private ["s28CustomDebugStringConvertibleP", "_findStringSwitchCase"]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- ["s28CustomDebugStringConvertibleP", "description"]
+- ["s28CustomDebugStringConvertibleP", "hash"]
+- ["s28CustomDebugStringConvertibleP", "hashValue"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "intValue"]
+- !private ["s28CustomDebugStringConvertibleP", "name"]
+- ["s28CustomDebugStringConvertibleP", "rawValue"]
+- ["s28CustomDebugStringConvertibleP", "stringValue"]
+- ["s28CustomDebugStringConvertibleP", "type"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- ["s17CustomReflectableP", "init"]
+- ["s17CustomReflectableP", "init"]
+- ["s23CustomStringConvertibleP", "RawValue"]
+- !private ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_Default_RawValue"]
+- !private ["s23CustomStringConvertibleP", "_findStringSwitchCase"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s23CustomStringConvertibleP", "debugDescription"]
+- ["s23CustomStringConvertibleP", "description"]
+- ["s23CustomStringConvertibleP", "hash"]
+- ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "intValue"]
+- !private ["s23CustomStringConvertibleP", "name"]
+- ["s23CustomStringConvertibleP", "rawValue"]
+- ["s23CustomStringConvertibleP", "stringValue"]
+- ["s23CustomStringConvertibleP", "type"]
+- !private ["Se", "CodingKeys"]
+- !private ["Se", "Ellipse"]
+- !private ["Se", "Fill"]
+- !private ["Se", "GradientFill"]
+- !private ["Se", "GradientStroke"]
+- !private ["Se", "Group"]
+- !private ["Se", "Merge"]
+- ["Se", "RawValue"]
+- !private ["Se", "Rectangle"]
+- !private ["Se", "Repeater"]
+- !private ["Se", "Shape"]
+- !private ["Se", "ShapeItem"]
+- !private ["Se", "ShapeTransform"]
+- !private ["Se", "ShapeType"]
+- !private ["Se", "Star"]
+- !private ["Se", "String"]
+- !private ["Se", "Stroke"]
+- !private ["Se", "Trim"]
+- ["Se", ""]
+- ["Se", "_Default_RawValue"]
+- !private ["Se", "_findStringSwitchCase"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- ["Se", "discriminator"]
+- ["Se", "ellipse"]
+- ["Se", "encode"]
+- ["Se", "fill"]
+- ["Se", "getType"]
+- ["Se", "gradientFill"]
+- ["Se", "gradientStroke"]
+- ["Se", "group"]
+- ["Se", "hash"]
+- ["Se", "hashValue"]
+- ["Se", "init"]
+- ["Se", "init"]
+- ["Se", "merge"]
+- !private ["Se", "name"]
+- ["Se", "rawValue"]
+- ["Se", "rectangle"]
+- ["Se", "repeater"]
+- ["Se", "shape"]
+- ["Se", "star"]
+- ["Se", "stroke"]
+- ["Se", "transform"]
+- ["Se", "trim"]
+- !private ["Se", "type"]
+- !private ["s7DecoderP", "container"]
+- ["6Lottie13DiscriminatorO", "type"]
+- !private ["SE", "CodingKeys"]
+- !private ["SE", "Ellipse"]
+- !private ["SE", "Fill"]
+- !private ["SE", "GradientFill"]
+- !private ["SE", "GradientStroke"]
+- !private ["SE", "Group"]
+- !private ["SE", "Merge"]
+- ["SE", "RawValue"]
+- !private ["SE", "Rectangle"]
+- !private ["SE", "Repeater"]
+- !private ["SE", "Shape"]
+- !private ["SE", "ShapeItem"]
+- !private ["SE", "ShapeTransform"]
+- !private ["SE", "ShapeType"]
+- !private ["SE", "Star"]
+- !private ["SE", "String"]
+- !private ["SE", "Stroke"]
+- !private ["SE", "Trim"]
+- ["SE", ""]
+- ["SE", "_Default_RawValue"]
+- !private ["SE", "_findStringSwitchCase"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- ["SE", "discriminator"]
+- ["SE", "ellipse"]
+- ["SE", "encode"]
+- ["SE", "fill"]
+- ["SE", "getType"]
+- ["SE", "gradientFill"]
+- ["SE", "gradientStroke"]
+- ["SE", "group"]
+- ["SE", "hash"]
+- ["SE", "hashValue"]
+- ["SE", "init"]
+- ["SE", "init"]
+- ["SE", "merge"]
+- !private ["SE", "name"]
+- ["SE", "rawValue"]
+- ["SE", "rectangle"]
+- ["SE", "repeater"]
+- ["SE", "shape"]
+- ["SE", "star"]
+- ["SE", "stroke"]
+- ["SE", "transform"]
+- ["SE", "trim"]
+- !private ["SE", "type"]
+- !private ["s7EncoderP", "container"]
+- !private ["SQ", "Ellipse"]
+- !private ["SQ", "Fill"]
+- !private ["SQ", "GradientFill"]
+- !private ["SQ", "GradientStroke"]
+- !private ["SQ", "Group"]
+- !private ["SQ", "Merge"]
+- ["SQ", "RawValue"]
+- !private ["SQ", "Rectangle"]
+- !private ["SQ", "Repeater"]
+- !private ["SQ", "Shape"]
+- !private ["SQ", "ShapeItem"]
+- !private ["SQ", "ShapeTransform"]
+- !private ["SQ", "Star"]
+- !private ["SQ", "Stroke"]
+- !private ["SQ", "Trim"]
+- ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- !private ["SQ", "_findStringSwitchCase"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- ["SQ", "debugDescription"]
+- ["SQ", "description"]
+- ["SQ", "discriminator"]
+- ["SQ", "ellipse"]
+- ["SQ", "encode"]
+- ["SQ", "fill"]
+- ["SQ", "getType"]
+- ["SQ", "gradientFill"]
+- ["SQ", "gradientStroke"]
+- ["SQ", "group"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- ["SQ", "init"]
+- ["SQ", "intValue"]
+- ["SQ", "merge"]
+- !private ["SQ", "name"]
+- ["SQ", "rawValue"]
+- ["SQ", "rectangle"]
+- ["SQ", "repeater"]
+- ["SQ", "shape"]
+- ["SQ", "star"]
+- ["SQ", "stringValue"]
+- ["SQ", "stroke"]
+- ["SQ", "transform"]
+- ["SQ", "trim"]
+- ["SQ", "type"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["SH", "Ellipse"]
+- !private ["SH", "Fill"]
+- !private ["SH", "GradientFill"]
+- !private ["SH", "GradientStroke"]
+- !private ["SH", "Group"]
+- !private ["SH", "Merge"]
+- ["SH", "RawValue"]
+- !private ["SH", "Rectangle"]
+- !private ["SH", "Repeater"]
+- !private ["SH", "Shape"]
+- !private ["SH", "ShapeItem"]
+- !private ["SH", "ShapeTransform"]
+- !private ["SH", "Star"]
+- !private ["SH", "Stroke"]
+- !private ["SH", "Trim"]
+- ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- !private ["SH", "_findStringSwitchCase"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- ["SH", "debugDescription"]
+- ["SH", "description"]
+- ["SH", "discriminator"]
+- ["SH", "ellipse"]
+- ["SH", "encode"]
+- ["SH", "fill"]
+- ["SH", "getType"]
+- ["SH", "gradientFill"]
+- ["SH", "gradientStroke"]
+- ["SH", "group"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- ["SH", "init"]
+- ["SH", "intValue"]
+- ["SH", "merge"]
+- !private ["SH", "name"]
+- ["SH", "rawValue"]
+- ["SH", "rectangle"]
+- ["SH", "repeater"]
+- ["SH", "shape"]
+- ["SH", "star"]
+- ["SH", "stringValue"]
+- ["SH", "stroke"]
+- ["SH", "transform"]
+- ["SH", "trim"]
+- ["SH", "type"]
+- !private ["s6HasherV", "combine"]
+- !private ["s22KeyedDecodingContainerV", "decode"]
+- !private ["s22KeyedDecodingContainerV", "decodeIfPresent"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decode"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decodeIfPresent"]
+- !private ["s22KeyedEncodingContainerV", "encode"]
+- !private ["s30KeyedEncodingContainerProtocolP", "encode"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s10MirrorPathP", "init"]
+- ["s10MirrorPathP", "init"]
+- ["Sm", "init"]
+- ["Sm", "init"]
+- !private ["SY", "Ellipse"]
+- !private ["SY", "Fill"]
+- !private ["SY", "GradientFill"]
+- !private ["SY", "GradientStroke"]
+- !private ["SY", "Group"]
+- !private ["SY", "Merge"]
+- ["SY", "RawValue"]
+- !private ["SY", "Rectangle"]
+- !private ["SY", "Repeater"]
+- !private ["SY", "Shape"]
+- !private ["SY", "ShapeItem"]
+- !private ["SY", "ShapeTransform"]
+- !private ["SY", "Star"]
+- !private ["SY", "Stroke"]
+- !private ["SY", "Trim"]
+- ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- !private ["SY", "_findStringSwitchCase"]
+- ["SY", "debugDescription"]
+- ["SY", "description"]
+- ["SY", "discriminator"]
+- ["SY", "ellipse"]
+- ["SY", "encode"]
+- ["SY", "fill"]
+- ["SY", "getType"]
+- ["SY", "gradientFill"]
+- ["SY", "gradientStroke"]
+- ["SY", "group"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- !private ["SY", "init"]
+- ["SY", "intValue"]
+- ["SY", "merge"]
+- !private ["SY", "name"]
+- ["SY", "rawValue"]
+- ["SY", "rectangle"]
+- ["SY", "repeater"]
+- ["SY", "shape"]
+- ["SY", "star"]
+- ["SY", "stringValue"]
+- ["SY", "stroke"]
+- ["SY", "transform"]
+- ["SY", "trim"]
+- ["SY", "type"]
+- ["ST", "init"]
+- ["ST", "init"]
+- ["6Lottie9ShapeItemC", "CodingKey"]
+- !private ["6Lottie9ShapeItemC", "CodingKeys"]
+- ["6Lottie9ShapeItemC", "Decoder"]
+- !private ["6Lottie9ShapeItemC", "ShapeItem"]
+- ["6Lottie9ShapeItemC", "ShapeType"]
+- ["6Lottie9ShapeItemC", "String"]
+- !private ["6Lottie9ShapeItemC", "_findStringSwitchCase"]
+- ["6Lottie9ShapeItemC", "deinit"]
+- ["6Lottie9ShapeItemC", "encode"]
+- ["6Lottie9ShapeItemC", "init"]
+- ["6Lottie9ShapeItemC", "name"]
+- ["6Lottie9ShapeItemC", "type"]
+- ["6Lottie9ShapeTypeO", "AnyObject"]
+- ["6Lottie9ShapeTypeO", "Discriminator"]
+- !private ["6Lottie9ShapeTypeO", "Ellipse"]
+- !private ["6Lottie9ShapeTypeO", "Fill"]
+- !private ["6Lottie9ShapeTypeO", "GradientFill"]
+- !private ["6Lottie9ShapeTypeO", "GradientStroke"]
+- !private ["6Lottie9ShapeTypeO", "Group"]
+- !private ["6Lottie9ShapeTypeO", "Merge"]
+- ["6Lottie9ShapeTypeO", "RawValue"]
+- !private ["6Lottie9ShapeTypeO", "Rectangle"]
+- !private ["6Lottie9ShapeTypeO", "Repeater"]
+- !private ["6Lottie9ShapeTypeO", "Shape"]
+- !private ["6Lottie9ShapeTypeO", "ShapeItem"]
+- !private ["6Lottie9ShapeTypeO", "ShapeTransform"]
+- !private ["6Lottie9ShapeTypeO", "Star"]
+- !private ["6Lottie9ShapeTypeO", "Stroke"]
+- !private ["6Lottie9ShapeTypeO", "Trim"]
+- ["6Lottie9ShapeTypeO", "_Default_RawValue"]
+- !private ["6Lottie9ShapeTypeO", "_findStringSwitchCase"]
+- ["6Lottie9ShapeTypeO", "deinit"]
+- ["6Lottie9ShapeTypeO", "discriminator"]
+- ["6Lottie9ShapeTypeO", "ellipse"]
+- ["6Lottie9ShapeTypeO", "encode"]
+- ["6Lottie9ShapeTypeO", "fill"]
+- ["6Lottie9ShapeTypeO", "getType"]
+- ["6Lottie9ShapeTypeO", "gradientFill"]
+- ["6Lottie9ShapeTypeO", "gradientStroke"]
+- ["6Lottie9ShapeTypeO", "group"]
+- ["6Lottie9ShapeTypeO", "hash"]
+- ["6Lottie9ShapeTypeO", "hashValue"]
+- ["6Lottie9ShapeTypeO", "init"]
+- ["6Lottie9ShapeTypeO", "merge"]
+- ["6Lottie9ShapeTypeO", "rawValue"]
+- ["6Lottie9ShapeTypeO", "rectangle"]
+- ["6Lottie9ShapeTypeO", "repeater"]
+- ["6Lottie9ShapeTypeO", "round"]
+- ["6Lottie9ShapeTypeO", "shape"]
+- ["6Lottie9ShapeTypeO", "star"]
+- ["6Lottie9ShapeTypeO", "stroke"]
+- ["6Lottie9ShapeTypeO", "transform"]
+- ["6Lottie9ShapeTypeO", "trim"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s12StaticStringV", "init"]
+- ["SS", "init"]
+- ["SS", "init"]
+- ["Sy", "init"]
+- ["Sy", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "SK"
+- !private "Sb"
+- "s7CVarArgP"
+- "6Lottie11ClassFamilyP"
+- "s9CodingKeyP"
+- "Sl"
+- "SL"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- !private "s7DecoderP"
+- "6Lottie13DiscriminatorO"
+- "SE"
+- !private "s7EncoderP"
+- "SQ"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- !private "s6HasherV"
+- !private "s22KeyedDecodingContainerV"
+- !private "s30KeyedDecodingContainerProtocolP"
+- !private "s22KeyedEncodingContainerV"
+- !private "s30KeyedEncodingContainerProtocolP"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- "Sm"
+- "SY"
+- "ST"
+- "6Lottie9ShapeItemC"
+- "6Lottie9ShapeTypeO"
+- !private "s12StaticStringV"
+- "SS"
+- "Sy"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "s21_ObjectiveCBridgeableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/lylydang/Desktop/WordGuessingv1/WordGuessing/Pods/Target Support Files/lottie-ios/lottie-ios-umbrella.h"
+- "/Users/lylydang/Desktop/WordGuessingv1/WordGuessing/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "ea8d78020fc06fd8ee3f5ff87d5c020e"

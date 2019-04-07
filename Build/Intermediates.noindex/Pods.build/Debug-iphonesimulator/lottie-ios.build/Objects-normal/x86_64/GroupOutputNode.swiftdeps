@@ -1,0 +1,123 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "GroupOutputNode"
+provides-nominal:
+- "6Lottie15GroupOutputNodeC"
+provides-member:
+- ["6Lottie15GroupOutputNodeC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "=="
+- !private "??"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CATransform3D"
+- !private "CATransform3DGetAffineTransform"
+- "CATransform3DIdentity"
+- "CGFloat"
+- !private "CGMutablePath"
+- "CGPath"
+- "GroupOutputNode"
+- "NodeOutput"
+- !private "||"
+depends-member:
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So16CGMutablePathRefa", "addPath"]
+- !private ["So16CGMutablePathRefa", "init"]
+- !private ["So9CGPathRefa", "addPath"]
+- !private ["So9CGPathRefa", "copy"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "addPath"]
+- !private ["SQ", "copy"]
+- !private ["SQ", "init"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["6Lottie15GroupOutputNodeC", "Bool"]
+- ["6Lottie15GroupOutputNodeC", "CATransform3D"]
+- !private ["6Lottie15GroupOutputNodeC", "CATransform3DGetAffineTransform"]
+- ["6Lottie15GroupOutputNodeC", "CATransform3DIdentity"]
+- ["6Lottie15GroupOutputNodeC", "CGFloat"]
+- !private ["6Lottie15GroupOutputNodeC", "CGMutablePath"]
+- ["6Lottie15GroupOutputNodeC", "CGPath"]
+- ["6Lottie15GroupOutputNodeC", "NodeOutput"]
+- ["6Lottie15GroupOutputNodeC", "deinit"]
+- ["6Lottie15GroupOutputNodeC", "hasOutputUpdates"]
+- ["6Lottie15GroupOutputNodeC", "init"]
+- ["6Lottie15GroupOutputNodeC", "outputPath"]
+- ["6Lottie15GroupOutputNodeC", "parent"]
+- ["6Lottie15GroupOutputNodeC", "rootNode"]
+- ["6Lottie15GroupOutputNodeC", "setTransform"]
+- ["6Lottie15GroupOutputNodeC", "transform"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "addPath"]
+- !private ["SH", "copy"]
+- !private ["SH", "init"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["6Lottie10NodeOutputP", "CATransform3DGetAffineTransform"]
+- ["6Lottie10NodeOutputP", "CATransform3DIdentity"]
+- !private ["6Lottie10NodeOutputP", "CGMutablePath"]
+- ["6Lottie10NodeOutputP", ""]
+- ["6Lottie10NodeOutputP", "hasOutputUpdates"]
+- ["6Lottie10NodeOutputP", "outputPath"]
+- ["6Lottie10NodeOutputP", "parent"]
+- !private ["6Lottie10NodeOutputP", "rootNode"]
+- !private ["6Lottie10NodeOutputP", "transform"]
+- !private ["14CoreFoundation9_CFObjectP", "addPath"]
+- !private ["14CoreFoundation9_CFObjectP", "copy"]
+- !private ["14CoreFoundation9_CFObjectP", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+depends-nominal:
+- !private "Sb"
+- !private "So16CGMutablePathRefa"
+- !private "So9CGPathRefa"
+- !private "s7CVarArgP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- !private "SQ"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "6Lottie15GroupOutputNodeC"
+- !private "SH"
+- !private "s25LosslessStringConvertibleP"
+- "6Lottie10NodeOutputP"
+- !private "14CoreFoundation9_CFObjectP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/lylydang/Desktop/WordGuessingv1/WordGuessing/Pods/Target Support Files/lottie-ios/lottie-ios-umbrella.h"
+- "/Users/lylydang/Desktop/WordGuessingv1/WordGuessing/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "df5da00c848aee428991520a8f390558"
