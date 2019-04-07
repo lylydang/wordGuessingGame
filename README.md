@@ -3,7 +3,7 @@
 ### DEVELOPER'S NOTE
 This game currently is designed for the iPhone X and has only been tested with this model. Other iPhone versions may not have correct visualization for the game.
 
-## GAMEPLAY&#39;S CONTENT
+## GAMEPLAY'S CONTENT
 
 The game is written based on a well-known name called The Hang Man. In the game, the player guesses secret words provided by the computer. In this game, we use REST API by REACH program as our source of data.
 
@@ -40,8 +40,8 @@ _(Actual view 1)_
 
 When the player plays the game, after the loading screen, there will be the main menu with 2 options: Tutorial and Play (see Actual view 1).
 
-- --When the player taps on Tutorial button, it will redirect the player to the tutorial page
-- --When the player taps on Play button, it will redirect the player to the gameplay page. Here, at the bottom left of the screen, the player can find a slider to modify the game&#39;s difficulty level (see Actual view 2).
+- When the player taps on Tutorial button, it will redirect the player to the tutorial page
+- When the player taps on Play button, it will redirect the player to the gameplay page. Here, at the bottom left of the screen, the player can find a slider to modify the game's difficulty level (see Actual view 2).
 
 
 ![(Actual view 2)](img/ActualView2.png)
@@ -55,7 +55,7 @@ Let&#39;s take a look at how the game runs (Actual view 3):
 
 3. Press button: After the player entering the input, they press the button to check the result
 
-4. UILabel: Show the number of tries left and to store player&#39;s input incorrect characters
+4. UILabel: Show the number of tries left and to store player's input incorrect characters
 
 5. When the player enters a correct letter, the underscore will be revealed and shows the correct letter (see Actual view 4).
 
@@ -73,13 +73,13 @@ _(Actual view 4)_
 
 Additionally, below are the actual look of the game when the player enter input:
 
-1. If the input is invalid (inputting a number, special symbol, or \&gt;=2 letters), then an invalid input popup will appear. Also, when the player enters an incorrect letter, the wrong guess popup will show up to warn the player (see Actual view 5).
+1. If the input is invalid (inputting a number, special symbol, or >=2 letters), then an invalid input popup will appear. Also, when the player enters an incorrect letter, the wrong guess popup will show up to warn the player (see Actual view 5).
 
 ![(Actual view 5)](img/ActualView5.png)
 
 _(Actual view 5)_
 
-1. If the player loses the game, the &quot;Game&#39;s Over&quot; popup appears. If the player correctly guesses the secret word, the &quot;Congrats!!!&quot; popup will appear (see Actual view 6).
+2. If the player loses the game, the "Game's Over" popup appears. If the player correctly guesses the secret word, the "Congrats!!!" popup will appear (see Actual view 6).
 
 ![(Actual view 6)](img/ActualView6.png)
 
@@ -87,16 +87,8 @@ _(Actual view 6)_
 
 ## BEHIND THE SCENE
 
-- The REST API used in this game:
+- The REST API used in this game is a Word Dictionary API provided by the Linkedin REACH program (source: [**http://app.linkedin-reach.io/words**](http://app.linkedin-reach.io/words)**)**
 
-Word Dictionary APIprovided by the Linkedin REACH program (source: [**http://app.linkedin-reach.io/words**](http://app.linkedin-reach.io/words)**)**
+- Purpose: The API was used to retrieve a dictionary list of words. From this list of word, the computer will choose a random word as the game's secret word.
 
-- Purpose:
-
-The API was used to retrieve a dictionary list of words. From this list of word, the computer will choose a random word as the game&#39;s secret word.
-
-- Parameters used:
-
-URL Parameter: difficulty – Legal values: Integer from 1-10
-
-Filters returned words based on the difficulty level provided: 1 is the lowest level and 10 is the highest level.
+- Parameters used: The URL Parameter for difficulty was used with legal values of integer values from 1-10. This parameter filters returned words based on the difficulty level provided: 1 is the lowest level and 10 is the highest level.
